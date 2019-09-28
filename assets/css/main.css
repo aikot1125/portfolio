@@ -1619,7 +1619,7 @@ label {
     display: block;
     font-size: 0.9em;
     font-weight: 400;
-    margin: 0 0 1em 0;
+    margin: 0 0 1em 1em;
 }
 
 input[type="text"],
@@ -2029,6 +2029,15 @@ ul.icons li .icon:before {
     font-size: 1.5em;
 }
 
+ul.skill-icons li {
+    display: inline-block;
+    padding: 0 1em 0 0;
+}
+
+ul.skill-icons li .icon:before {
+    font-size: 2em;
+}
+
 
 /* Labeled Icons */
 
@@ -2414,7 +2423,7 @@ input[type="button"]:disabled,
     justify-content: space-between;
     background-color: #1f1815;
     background-attachment: scroll, scroll;
-    background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+    background-image: url("images/overlay.png"), url("../../images/bgYellowWall.png");
     background-position: top left, top left;
     background-repeat: repeat, no-repeat;
     background-size: auto, 150%;
@@ -2892,7 +2901,7 @@ body.is-touch .poptrox-popup .closer {
     #footer {
         background-attachment: scroll;
         background-color: #1f1815;
-        background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+        background-image: url("images/overlay.png"), url("../../images/bgYellowWall.png");
         background-position: top left, bottom center;
         background-repeat: repeat, no-repeat;
         background-size: auto, cover;

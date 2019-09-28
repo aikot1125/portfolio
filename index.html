@@ -18,7 +18,7 @@
     <!-- Header -->
     <header id="header">
         <div class="inner">
-            <a href="#" class="image avatar"><img src="images/aikoProfilePhoto.png" alt="" /></a>
+            <a href="#" class="image avatar"><img src="images/aikoProfilePhoto.png" alt="Aiko's profile photo" /></a>
             <h1><strong>I am Aiko Takemura</strong><br /> - an aspiring web developer<br /> from Japan.</h1>
         </div>
     </header>
@@ -34,16 +34,16 @@
             <div class="row">
                 <article class="col-6 col-12-xsmall work-item">
                     <!-- image size: 750 x 750 -->
-                    <a href="https://sherrynance.github.io/emailnewsletter/" class="image fit thumb"><img src="images/newsletter.png" alt="" /></a>
+                    <a href="https://sherrynance.github.io/emailnewsletter/" class="image fit thumb" target="_blank"><img src="images/newsletter.png" alt="" /></a>
                     <h3>E-mail Newsletter
-                        <a href="https://github.com/sherrynance/emailnewsletter" class="icon brands fa-github"><span class="label">Github</span></a></h3>
+                        <a href="https://github.com/sherrynance/emailnewsletter" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></h3>
                     <p>Pair programmed an E-mail Newsletter for a farmers market</p>
                     <p>Language used: HTML</p>
                     <p>Tools used: Git, GitHub</p>
                 </article>
 
                 <article class="col-6 col-12-xsmall work-item">
-                    <a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/blogpost.png" alt="" /></a>
+                    <a href="#" class="image fit thumb"><img src="images/blogpost.png" alt="" /></a>
                     <h3>Technical Tutorial Blog Post
                         <a href="#" class="icon brands fa-github"><span class="label">Github</span></a>
                     </h3>
@@ -91,10 +91,16 @@
                 education or health in the world, especially for the future of our children including her two boys!</p>
             <!-- <header class="major"> -->
             <h2>My skills</h2>
+            <ul class="skill-icons">
+                <li><span class="label icon brands fa-html5"></span></li>
+                <li><span class="label icon brands fa-css3-alt"></span></li>
+                <li><span class="label icon brands fa-js-square"></span></li>
+                <li><span class="label icon brands fa-github"></span></li>
+                <li><span class="label icon brands fa-git-square"></span></li>
+            </ul>
             <!-- </header> -->
-            <p>filler</p>
             <ul class="actions">
-                <li><a href="#" class="button">Download Resume</a></li>
+                <li><a href="#" class="button" target="_blank">Download Resume</a></li>
             </ul>
         </section>
 
@@ -106,7 +112,33 @@
             </header>
             <div class="row">
                 <div class="col-8 col-12-small">
-                    <form method="post" action="#">
+                    <form method="post" id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/aiko.takemura@gmail.com">
+                        <fieldset id="fs-frm-inputs">
+                            <div class="row gtr-uniform gtr-50">
+                                <!-- <label for="name">Name</label> -->
+                                <div class="col-6 col-12-xsmall">
+                                    <label for="name">Name</label>
+                                    <input type="text" name="name" id="name" placeholder="Name" required />
+                                </div>
+                                <!-- <label for="email">Email</label> -->
+                                <div class="col-6 col-12-xsmall">
+                                    <label for="email">E-mail</label>
+                                    <input type="email" name="email" id="email" placeholder="E-mail" required />
+                                </div>
+                                <!-- <label for="message">Message</label> -->
+                                <div class="col-12">
+                                    <label for="message">Message</label>
+                                    <textarea name="message" id="message" placeholder="Please type your message here" rows="4" required></textarea>
+                                </div>
+                                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                            </div>
+                        </fieldset>
+                        <br>
+                        <ul class="actions">
+                            <li><input type="submit" value="Send Message" target="_blank" /></li>
+                        </ul>
+                    </form>
+                    <!-- <form method="post" action="#">
                         <div class="row gtr-uniform gtr-50">
                             <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
                             <div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
@@ -115,19 +147,17 @@
                     </form>
                     <ul class="actions">
                         <li><input type="submit" value="Send Message" /></li>
-                    </ul>
+                    </ul> -->
                 </div>
-                <div class="col-4 col-12-small">
-                    <ul class="labeled-icons">
+                <!-- <div class="col-4 col-12-small">
+                    <!-- <ul class="labeled-icons">
                         <li>
                             <h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
                             <a href="#">aiko.takemura@gmail.com</a>
                         </li>
-                    </ul>
-                </div>
+                    </ul> -->
             </div>
         </section>
-
     </div>
 
     <!-- Footer -->
@@ -142,6 +172,7 @@
             <ul class="copyright">
                 <!-- <li>&copy; Untitled</li> -->
                 <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                <li>Image: <a href="https://unsplash.com/photos/vC8wj_Kphak">Unsplash</a></li>
             </ul>
         </div>
     </footer>
