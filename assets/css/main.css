@@ -2434,7 +2434,7 @@ input[type="button"]:disabled,
     position: fixed;
     text-align: right;
     top: 0;
-    width: 35%;
+    width: 30%;
 }
 
 #header>* {
@@ -2521,8 +2521,8 @@ input[type="button"]:disabled,
 #main {
     margin-left: 35%;
     max-width: 54em;
-    padding: 8em 4em 4em 4em;
-    width: calc(100% - 35%);
+    padding: 8em 4em 4em 1em;
+    width: calc(100% - 30%);
 }
 
 #main>section {
@@ -2928,7 +2928,7 @@ body.is-touch .poptrox-popup .closer {
     /* Main */
     #main {
         margin: 0;
-        padding: 6em 4em;
+        padding: 4em 4em;
         width: 100%;
     }
 }
