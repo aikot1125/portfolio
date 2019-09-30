@@ -2884,7 +2884,7 @@ body.is-touch .poptrox-popup .closer {
         background-position: top left, center center;
         background-size: auto, cover;
         left: auto;
-        padding: 6em 4em;
+        padding: 3em 4em;
         position: relative;
         text-align: center;
         top: auto;
@@ -2964,7 +2964,7 @@ body.is-touch .poptrox-popup .closer {
     }
     /* Header */
     #header {
-        padding: 2.25em 1.5em;
+        padding: 1.25em 1.5em;
     }
     #header h1 {
         font-size: 1.35em;
@@ -2997,7 +2997,7 @@ body.is-touch .poptrox-popup .closer {
 @media screen and (max-width: 480px) {
     /* Header */
     #header {
-        padding: 4.5em 1.5em;
+        padding: 1.5em 1.5em;
     }
     #header h1 br {
         display: none;
