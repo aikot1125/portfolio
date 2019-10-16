@@ -206,13 +206,13 @@ a {
     -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-    border-bottom: dotted 1px;
+    /* border-bottom: dotted 1px; */
     color: #49bf9d;
     text-decoration: none;
 }
 
 a:hover {
-    border-bottom-color: transparent;
+    /* border-bottom-color: transparent; */
     color: #49bf9d !important;
     text-decoration: none;
 }
@@ -1851,6 +1851,16 @@ input[type="radio"]+label:before {
     font-family: 'Font Awesome 5 Brands';
 }
 
+.github-repo {
+    padding: 0 8px;
+    font-size: 25px;
+
+}
+
+.figma-repo {
+    padding: 0 8px;
+    font-size: 25px;
+}
 
 /* Image */
 
@@ -1965,6 +1975,13 @@ input[type="radio"]+label:before {
     width: 100%;
 }
 
+/* Publication */
+.publication {
+    display: inline-block;
+    height: 70px;
+    font-size: 24px;
+    color: #787878;
+}
 
 /* List */
 
@@ -2396,7 +2413,7 @@ input[type="button"]:disabled,
 }
 
 .work-item p {
-    font-size: 0.8em;
+    font-size: 1em;
     line-height: 1.5em;
     margin: 0;
 }
@@ -2423,7 +2440,7 @@ input[type="button"]:disabled,
     justify-content: space-between;
     background-color: #1f1815;
     background-attachment: scroll, scroll;
-    background-image: url("images/overlay.png"), url("../../images/bgYellowWall_min.png");
+    background-image: url("images/overlay.png"), url("../../images/bgYellowWall.png");
     background-position: top left, top left;
     background-repeat: repeat, no-repeat;
     background-size: auto, 150%;
@@ -2901,7 +2918,7 @@ body.is-touch .poptrox-popup .closer {
     #footer {
         background-attachment: scroll;
         background-color: #1f1815;
-        background-image: url("images/overlay.png"), url("../../images/bgYellowWall_min.png");
+        background-image: url("images/overlay.png"), url("../../images/bgYellowWall.png");
         background-position: top left, bottom center;
         background-repeat: repeat, no-repeat;
         background-size: auto, cover;
