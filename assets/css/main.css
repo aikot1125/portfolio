@@ -2555,10 +2555,6 @@ input[type="button"]:disabled,
     padding-top: 0;
 }
 
-.accessibility-report {
-    color: #A2A2A2;
-}
-
 /* Poptrox */
 
 @-moz-keyframes spin {
