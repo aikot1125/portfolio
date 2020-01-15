@@ -390,7 +390,7 @@ pre code {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .container {
         max-width: calc(100% - 3em);
     }
@@ -1384,7 +1384,7 @@ pre code {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .row {
         display: flex;
         flex-wrap: wrap;
@@ -2160,7 +2160,7 @@ ul.actions.fit.stacked {
     width: 100%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     ul.actions:not(.fixed) {
         -moz-flex-direction: column;
         -webkit-flex-direction: column;
@@ -3011,7 +3011,7 @@ body.is-touch .poptrox-popup .closer {
 
 /* XSmall */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     /* Header */
     #header {
         padding: 1.5em 1.5em;
