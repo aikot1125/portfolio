@@ -7,6 +7,11 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* color variables */
+body {
+    --text-color: #313638;
+}
+
 html,
 body,
 div,
@@ -195,10 +200,10 @@ body,
 input,
 select,
 textarea {
-    color: #a2a2a2;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    color: var(--text-color);
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
     font-size: 16pt;
-    font-weight: 400;
+    font-weight: lighter;
     line-height: 1.75em;
 }
 
@@ -239,8 +244,8 @@ h3,
 h4,
 h5,
 h6 {
-    color: #787878;
-    font-weight: 400;
+    color: var(--text-color);
+    font-weight: 600;
     line-height: 1em;
     margin: 0 0 1em 0;
 }
@@ -1710,7 +1715,7 @@ input[type="radio"] {
 input[type="checkbox"]+label,
 input[type="radio"]+label {
     text-decoration: none;
-    color: #a2a2a2;
+    color: var(--text-color);
     cursor: pointer;
     display: inline-block;
     font-size: 1em;
@@ -1981,7 +1986,8 @@ input[type="radio"]+label:before {
     display: inline-block;
     height: 70px;
     font-size: 24px;
-    color: #787878;
+    font-weight: 500;
+    color: var(--text-color);
 }
 
 /* List */
@@ -2439,9 +2445,9 @@ input[type="button"]:disabled,
     -webkit-justify-content: space-between;
     -ms-justify-content: space-between;
     justify-content: space-between;
-    background-color: #1f1815;
+    background-color: #459EBC;
     background-attachment: scroll, scroll;
-    background-image: url("images/overlay.png"), url("../../images/bgYellowWall.png");
+    /* background-image: url("images/overlay.png"), url("../../images/bgYellowWall.png"); */
     background-position: top left, top left;
     background-repeat: repeat, no-repeat;
     background-size: auto, 150%;
@@ -2485,15 +2491,14 @@ input[type="button"]:disabled,
 }
 
 #header h1 {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 1.35em;
+    color: white;
     line-height: 1.75em;
     margin: 0;
 }
 
 #header .image.avatar {
     margin: 0 0 1em 0;
-    width: 6.25em;
+    width: 10em;
 }
 
 
@@ -2853,8 +2858,13 @@ body.is-touch .poptrox-popup .closer {
         width: 30%;
     }
     #header h1 {
-        font-size: 1.25em;
+        font-size: 2em;
     }
+
+    #header h2 {
+        font-size: 1.5em;
+    }
+
     #header h1 br {
         display: none;
     }
@@ -2909,8 +2919,13 @@ body.is-touch .poptrox-popup .closer {
         display: block;
     }
     #header h1 {
-        font-size: 1.75em;
+        font-size: 2em;
     }
+
+    #header h2 {
+        font-size: 1.5em;
+    }
+
     #header h1 br {
         display: inline;
     }
@@ -2983,9 +2998,15 @@ body.is-touch .poptrox-popup .closer {
     #header {
         padding: 1.25em 1.5em;
     }
+
     #header h1 {
-        font-size: 1.35em;
+        font-size: 1.75em;
     }
+
+    #header h2 {
+        font-size: 1.5em;
+    }
+
     /* Footer */
     #footer {
         padding: 2.25em 1.5em;
@@ -3013,6 +3034,14 @@ body.is-touch .poptrox-popup .closer {
 
 @media screen and (max-width: 600px) {
     /* Header */
+    #header h1 {
+        font-size: 2em;
+    }
+
+    #header h2 {
+        font-size: 1.5em;
+    }
+
     #header {
         padding: 1.5em 1.5em;
     }
