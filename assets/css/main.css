@@ -2858,7 +2858,7 @@ body.is-touch .poptrox-popup .closer {
 @media screen and (max-width: 1280px) {
     /* Header */
     #header {
-        padding: 4em 4em;
+        padding: 4em 2em;
         width: 350px;
     }
     #header h1 {
@@ -2876,13 +2876,13 @@ body.is-touch .poptrox-popup .closer {
         margin-bottom: 0;
     }
     /* Footer */
-    #footer .copyright li {
+    /* #footer .copyright li {
         border-left-width: 0;
         display: block;
         line-height: 2.25em;
         margin-left: 0;
         padding-left: 0;
-    }
+    } */
     /* Main */
     #main {
         margin-left: 350px;
@@ -3047,11 +3047,11 @@ body.is-touch .poptrox-popup .closer {
         display: none;
     }
     /* Footer */
-    #footer .copyright li {
+    /* #footer .copyright li {
         border-left-width: 0;
         display: block;
         line-height: 2.25em;
         margin-left: 0;
         padding-left: 0;
-    }
+    } */
 }
