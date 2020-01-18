@@ -1,5 +1,8 @@
 .portfolio-title {
     text-align: center;
+    display: block;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
 }
 
 /* Button styling */
@@ -15,7 +18,7 @@ article {
 .button-container {
   margin: 0 auto;
   text-align: center;
-  padding: 2em 1em;
+  padding: 1em 1em;
 }
 
 .button-wrapper {
@@ -33,6 +36,7 @@ article {
 }
 
 .portfolio-button {
+  width: 180px;
   border-radius: 50px;
   border: medium none;
   padding: 1em 2em;
