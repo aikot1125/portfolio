@@ -102,6 +102,7 @@ video {
     border: 0;
     font-size: 100%;
     font: inherit;
+    font-weight: normal;
     vertical-align: baseline;
 }
 
@@ -122,6 +123,13 @@ section {
 body {
     line-height: 1;
     --hover-color: var(--yellow);
+}
+
+.navlink {
+    display: block;
+    font-size: 18px;
+    padding-bottom: 5px;
+    color: white;
 }
 
 ol,
@@ -2012,9 +2020,9 @@ ul {
     padding-left: 1em;
 }
 
-ul li {
+/* ul li {
     padding-left: 0.5em;
-}
+} */
 
 ul.alt {
     list-style: none;
@@ -2934,6 +2942,11 @@ body.is-touch .poptrox-popup .closer {
     #header h1 br {
         display: inline;
     }
+
+    .navlink {
+        display: none;
+    }
+
     /* Footer */
     #footer {
         background-attachment: scroll;
