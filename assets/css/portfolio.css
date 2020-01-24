@@ -78,3 +78,7 @@ article {
 .button-color:hover {
     background-color: var(--yellow-hov);
 }
+
+ul {
+  margin-bottom: 0;
+}
