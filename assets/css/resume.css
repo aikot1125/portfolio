@@ -4,7 +4,7 @@ body {
     --blue: #459EBC;
     --yellow: #F6D443;
     color: var(--text-color);
-    background: lightsteelblue;
+    background: var(--blue);
 }
 
 .resume {
@@ -34,16 +34,26 @@ section {
 .name {
     display: grid;
     grid-area: name;
-    font-size: 60px;
-    font-weight: bold;
-    letter-spacing: 8px;
-    text-transform: uppercase;
+    font-family: 'Patua One', cursive, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 70px;
+    /* font-weight: bold; */
+    letter-spacing: 5px;
+    /* text-transform: uppercase; */
     color: var(--blue);
 }
 
 .contact {
     grid-area: contact;
-    font-size: 20px;
+    font-size: 18px;
+}
+
+.contactlinks {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.contactlinks:hover {
+    color: var(--blue);
 }
 
 .photo {
@@ -60,7 +70,7 @@ section {
 
 .about {
     grid-area: about;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5em;
     
 }
@@ -96,10 +106,11 @@ section {
 }
 
 .sub-header {
-    font-size: 24px;
-    font-weight: bold;
+    font-family: 'Patua One', cursive, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 30px;
+    /* font-weight: bold; */
     color: var(--blue);
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     letter-spacing: 2px;
 }
 
@@ -149,14 +160,42 @@ li {
         "education"
         ;
     }
-    section {
-        border: 1px black solid;
-    }
+
     .photo img {
         border-radius: 50%;
         width: 30%;
         border: 3px solid var(--yellow);
     }
+
+    .name {
+        padding: 0;
+        text-align: center;
+    }
+
+    .name p {
+        margin: 20px;
+    }
+
+    .contact {
+        padding: 0;
+        text-align: center;
+    }
+
+    .contact ul {
+        margin: 0;
+    }
+
+@media screen and (max-width: 720px) {
+
+    .name {
+        font-size: 50px;
+    }
+
+    .contact {
+        font-size: 20px;
+    }
+}
+
 /* .sub-header::before {
     content: "";
     display: inline-block;
@@ -175,4 +214,4 @@ li {
     width: 21cm;
     height: 29.7cm; 
 } */
-
+}
